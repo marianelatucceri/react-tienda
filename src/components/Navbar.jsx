@@ -1,4 +1,4 @@
-import logo from "../assets/logo-tienda.png";
+import logo from "../assets/logo-sweety.png";
 
 export default function Navbar () {
     return (
@@ -8,9 +8,9 @@ export default function Navbar () {
       </div>
 
       <div className="navbar__categories">
-        <a href="#">Indumentaria</a>
-        <a href="#">Calzados</a>
-        <a href="#">Accesorios</a>
+        <a href="#">Pastelería</a>
+        <a href="#">Chocolates</a>
+        <a href="#">Cursos online</a>
       </div>
     </nav>
     )

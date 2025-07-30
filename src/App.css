@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+  font-family: "Dancing Script", cursive;
+  background-color: rgb(253, 249, 249);
+}
+
 .navbar {
   position: fixed;              /* Se fija en la parte superior */
   top: 0;
@@ -8,12 +15,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(253, 249, 249);
+ 
 }
 
 .navbar__logo img {
-  height: 40px;
+  height: 320px;
 }
 
 .navbar__categories {
@@ -25,13 +32,16 @@
 }
 
 .navbar__categories a {
+  font-family: "Dancing Script", cursive;
+  color: rgba(106, 18, 116, 0.784);
   text-decoration: none;
-  color: #333;
   font-weight: 500;
-  font-size: 16px;
-  transition: color 0.2s;
+  font-size: 25px;
+  transition: color 0.4s;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .navbar__categories a:hover {
-  color: #000;
+  color: rgba(116, 18, 34, 0.37);
 }
